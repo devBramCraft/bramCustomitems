@@ -1,0 +1,18 @@
+name: CustomItemsPlugin
+main: net.bram.customitems.CustomItemsPlugin
+version: 1.0
+api-version: 1.21
+author: Bram
+description: Adds custom weapons and abilities with a GUI selector.
+
+commands:
+  weaponsgui:
+    description: Opens a GUI to receive special weapons.
+    usage: /weaponsgui
+    permission: customitems.weaponsgui
+    permission-message: You don't have permission to use this command.
+
+permissions:
+  customitems.weaponsgui:
+    description: Allows the player to open the weapons GUI.
+    default: true
